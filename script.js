@@ -1986,6 +1986,22 @@ const addons = [
         file: "DataCode/PDF view.js",
         author: "Dimka10",
         authorLink: "https://scratch.mit.edu/users/Dimka10/"
+    },
+    {
+        name: "Complex numbers",
+        description: "Добавляет поддержку комплексных чисел. Выполняет с ними такие операции, как сложение, умножение, возведение в степень и тригонометрические функции.",
+        image: "DataImage/ComplexNumbers.svg",
+        file: "DataCode/ComplexNumbers.js",
+        author: "Dimka10",
+        authorLink: "https://scratch.mit.edu/users/Dimka10/"
+    },
+    {
+        name: "Quaternions",
+        description: "Расширение для работы с комплексными числами и кватернионами. Добавляет математические операции, 3D-вращения и преобразования для сложных вычислений.",
+        image: "DataImage/Quaternions.svg",
+        file: "DataCode/Quaternions.js",
+        author: "Dimka10",
+        authorLink: "https://scratch.mit.edu/users/Dimka10/"
     }
 ];
 
@@ -2083,6 +2099,7 @@ function filterAddons() {
 }
 
 renderAddons(addons);
+
 
 
 
