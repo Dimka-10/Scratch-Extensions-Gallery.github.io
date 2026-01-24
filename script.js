@@ -2002,6 +2002,14 @@ const addons = [
         file: "DataCode/Quaternions.js",
         author: "Dimka10",
         authorLink: "https://scratch.mit.edu/users/Dimka10/"
+    },
+    {
+        name: "AniList API",
+        description: "Поиск аниме, манги и персонажей используя API AniList",
+        image: "DataImage/AniList.png",
+        file: "DataCode/AniListAPI.js",
+        author: "Dimka10",
+        authorLink: "https://scratch.mit.edu/users/Dimka10/"
     }
 ];
 
@@ -2099,6 +2107,7 @@ function filterAddons() {
 }
 
 renderAddons(addons);
+
 
 
 
