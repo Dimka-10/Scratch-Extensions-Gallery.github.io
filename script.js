@@ -477,7 +477,7 @@ const addons = [
     },
     {
         name: "fetch+",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет открывать ссылки и работать с сайтами!",
         image: "DataImage/fetch+.png",
         file: "DataCode/fetch+.js",
         author: "???",
@@ -485,7 +485,7 @@ const addons = [
     },
     {
         name: "fetchplus",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет общаться с сайтами, получать и передавать информацию.",
         image: "DataImage/fetchplus.png",
         file: "DataCode/fetchplus.js",
         author: "???",
@@ -493,7 +493,7 @@ const addons = [
     },
     {
         name: "Files expanded",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Добавляет работу с файлами!",
         image: "DataImage/Files expanded.png",
         file: "DataCode/Files expanded.js",
         author: "???",
@@ -501,7 +501,7 @@ const addons = [
     },
     {
         name: "Geolocation",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Показывает геолокацию, координаты и IP адрес.",
         image: "DataImage/Geolocation.png",
         file: "DataCode/Geolocation.js",
         author: "???",
@@ -509,7 +509,7 @@ const addons = [
     },
     {
         name: "Geometry dash",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Блоки для работы с серверами Geometry dash",
         image: "DataImage/Geometry dash.png",
         file: "DataCode/Geometry dash.js",
         author: "???",
@@ -517,7 +517,7 @@ const addons = [
     },
     {
         name: "Github",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет работать с Github API",
         image: "DataImage/Github.png",
         file: "DataCode/Github.js",
         author: "???",
@@ -525,7 +525,7 @@ const addons = [
     },
     {
         name: "github-api",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет подключаться к Github",
         image: "DataImage/github-api.png",
         file: "DataCode/github-api.js",
         author: "???",
@@ -533,7 +533,7 @@ const addons = [
     },
     {
         name: "Global Coordinate",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет менять глобальные координаты камеры, поворачивать экран и многое другое!",
         image: "DataImage/Global Coordinate.png",
         file: "DataCode/Global Coordinate.js",
         author: "???",
@@ -541,7 +541,7 @@ const addons = [
     },
     {
         name: "Google sheets",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Блоки для работы с Google таблицами",
         image: "DataImage/Google sheets.png",
         file: "DataCode/Google sheets.js",
         author: "???",
@@ -549,7 +549,7 @@ const addons = [
     },
     {
         name: "hackedblocks",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Разные взломанные блоки",
         image: "DataImage/hackedblocks.png",
         file: "DataCode/hackedblocks.js",
         author: "???",
@@ -557,7 +557,7 @@ const addons = [
     },
     {
         name: "HTMLInputs",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет очень просто создавать интерфейс с помощью HTML",
         image: "DataImage/HTMLInputs.png",
         file: "DataCode/HTMLInputs.js",
         author: "???",
@@ -565,7 +565,7 @@ const addons = [
     },
     {
         name: "Iframe+",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Показывает сайты прямо в окне",
         image: "DataImage/Iframe+.png",
         file: "DataCode/Iframe+.js",
         author: "???",
@@ -573,7 +573,7 @@ const addons = [
     },
     {
         name: "Images",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Позволяет работать с костюмами из интернета",
         image: "DataImage/Images.png",
         file: "DataCode/Images.js",
         author: "???",
@@ -581,7 +581,7 @@ const addons = [
     },
     {
         name: "Inline Blocks",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Разные непонятные блоки",
         image: "DataImage/Inline Blocks.png",
         file: "DataCode/Inline Blocks.js",
         author: "???",
@@ -589,7 +589,7 @@ const addons = [
     },
     {
         name: "InputManager",
-        description: "Новое дополнение, о подробностях сообщат позже.",
+        description: "Не знаю что это",
         image: "DataImage/InputManager.png",
         file: "DataCode/InputManager.js",
         author: "???",
