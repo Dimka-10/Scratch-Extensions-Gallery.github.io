@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(135deg, #acddbf, #d1eb63);
-    color: red;
+    color: black;
     font-family: Arial, sans-serif;
 }
 
@@ -87,8 +87,8 @@ ul {
 
 .download-button {
     display: inline-block;
-    background-color: #4CAF50; /* Зелёный */
-    color: white !important; /* Белый текст */
+    background-color: #4CAF50;
+    color: white !important;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -111,7 +111,7 @@ ul {
 
 .copy-button {
     display: inline-block;
-    background-color: #2196F3; /* Синий */
+    background-color: #2196F3;
     color: white;
     text-decoration: none;
     padding: 8px 16px;
@@ -141,7 +141,6 @@ footer {
     color: black;
 }
 
-/* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
     .addon {
         width: 80%;
@@ -155,5 +154,116 @@ footer {
     .download-button, .copy-button {
         width: 100%;
         max-width: none;
+    }
+}
+
+#addon-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.addon-view {
+    text-align: center;
+}
+
+#addon-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+
+#addon-title {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#addon-author {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#addon-author a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+#addon-author a:hover {
+    text-decoration: underline;
+}
+
+#addon-description {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.download-button,
+.copy-button,
+#back-button {
+    background: #0078ff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .2s;
+}
+
+.download-button:hover,
+.copy-button:hover,
+#back-button:hover {
+    background: #005fcc;
+    transform: translateY(-2px);
+}
+
+#back-button {
+    margin-bottom: 30px;
+}
+
+.details-button {
+    background: #28a745;
+}
+
+.details-button:hover {
+    background: #218838;
+}
+
+
+@media (max-width: 768px) {
+
+    #addon-title {
+        font-size: 32px;
+    }
+
+    #addon-description {
+        font-size: 18px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-button,
+    .copy-button,
+    #back-button {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    #addon-image {
+        max-width: 100%;
     }
 }
