@@ -2006,5 +2006,13 @@ window.addons = [
         file: "DataCode/AniListAPI.js",
         author: "Dimka10",
         authorLink: "https://scratch.mit.edu/users/Dimka10/"
+    },
+    {
+        name: "Obfuscator",
+        description: "Превращает имена переменных и списков в бессмысленный набор символов. При этом программа продолжает работать точно так же.",
+        image: "DataImage/Obfuscator.png",
+        file: "DataCode/obfuscation.js",
+        author: "Dimka10",
+        authorLink: "https://scratch.mit.edu/users/Dimka10/"
     }
 ];
